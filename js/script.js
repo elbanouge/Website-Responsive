@@ -186,4 +186,12 @@ $(document).ready(function () {
         preloader: false,
         fixedContentPos: false
     });
+
+    // Back To Top
+    $(window).scroll(function () {
+        var scrolled = $(window).scrollTop();
+        
+        if (scrolled > 600) $('.go-top').addClass('active');
+        if (scrolled < 600) $('.go-top').removeClass('active');
+    });
 });

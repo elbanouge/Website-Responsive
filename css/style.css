@@ -1283,3 +1283,36 @@ p {
     border-color: var(--defaultColor);
   }
 }
+
+/* -----------------------------------------
+  Go Top CSS
+----------------------------------------- */
+.go-top {
+  position: fixed;
+  top: 50%;
+  right: 3%;
+  opacity: 0;
+  cursor: pointer;
+  text-decoration: none;
+  color: var(--defaultColor);
+  font-size: 24px;
+  font-weight: bold;
+  text-align: center;
+  background: var(--primaryColor);
+  padding: 8px 13px;
+  border-radius: 50%;
+  z-index: 100;
+}
+
+.go-top:hover {
+  color: var(--primaryColor);
+  background: var(--defaultColor);
+  border: 2px solid var(--primaryColor);
+}
+
+.go-top.active {
+  top: 95%;
+  transform: translateY(-95%);
+  opacity: 1;
+  visibility: visible;
+}
