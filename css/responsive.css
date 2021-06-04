@@ -143,10 +143,7 @@
     padding: 60px 0 120px;
   }
 
-  .home-banner-area
-    .owl-carousel
-    .owl-nav
-    button[class*="owl-"] {
+  .home-banner-area .owl-carousel .owl-nav button[class*="owl-"] {
     position: unset;
   }
 
@@ -242,6 +239,18 @@
   .footer-area h5 {
     margin-bottom: 20px;
   }
+
+  /*  Go Top CSS  */
+  .go-top a {
+  color: var(--defaultColor);
+  background: var(--primaryColor);
+}
+
+  .go-top:hover {
+    color: var(--defaultColor);
+    background: var(--primaryColor);
+    border: 2px solid var(--primaryColor);
+  }
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
@@ -284,10 +293,7 @@
     padding: 60px 0 120px;
   }
 
-  .home-banner-area
-    .owl-carousel
-    .owl-nav
-    button[class*="owl-"] {
+  .home-banner-area .owl-carousel .owl-nav button[class*="owl-"] {
     position: unset;
   }
 
@@ -362,10 +368,7 @@
     padding: 60px 0 120px;
   }
 
-  .home-banner-area
-    .owl-carousel
-    .owl-nav
-    button[class*="owl-"] {
+  .home-banner-area .owl-carousel .owl-nav button[class*="owl-"] {
     position: unset;
   }
 
